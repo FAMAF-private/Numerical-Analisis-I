@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 from scipy.interpolate import interp1d
 
 #EJ1
-def f(x):
-    return a1*x + a0
+#def f(x):
+#   return a1*x + a0
 
 datos = np.loadtxt('C:/Users/Pedro/Desktop/LMA/Analisis_Numerico_1/Practico4/datos1a.dat.txt')
 
@@ -98,9 +98,9 @@ for i in range(6):
     ax[i].legend()
 plt.show()
 '''
-'''
-#b
 
+#b
+'''
 x = np.linspace(0, 4*np.pi, 50)
 
 yots = [np.cos(x) for x in x]
@@ -116,8 +116,8 @@ for i in range(6):
     ax[i].grid()
     ax[i].legend()
 plt.show()
-'''
 
+'''
 #Ej3
 '''
 #Load the data
