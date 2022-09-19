@@ -179,4 +179,5 @@ fig, ax = plt.subplots(1,1)
 ax.plot(x, cases, 'o')
 ax.plot(x, a*(np.exp(b*x)))
 plt.show()
+
 #As it's seen, the exponential aproximation is a good one in the first days, but as time pass, wont adjust well to the data

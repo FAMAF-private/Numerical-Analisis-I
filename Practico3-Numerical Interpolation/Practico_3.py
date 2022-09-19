@@ -194,3 +194,4 @@ def rinterp(fun, x0, x1, x2, err, mit):
     for i in range(3):
         if abs(lista[1]) > abs(fxn[i]):
             lista = [xn[i], fxn[i]]
+#Not finished
